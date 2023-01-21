@@ -1,0 +1,221 @@
+/*
+Bem-vindo ao CSS Personalizado!
+
+Para saber como isso funciona, veja http://wp.me/PEmnE-Bt
+*/
+
+footer, nav, #secondary {
+	display: none !important;
+}
+
+#primary { width: 100% !important; }
+
+.custom-logo { max-width: 210px !important;  }
+
+
+.slideshowhome { 
+	position: absolute !important; 
+	left:0; 
+	top: -70px;
+}
+h1 { margin-top: 250px; }
+
+.menu-toggle:before, .menu-toggle span:before, .menu-toggle:after { background-color: #FFFFFF !important; }
+
+.handheld-navigation .menu-item a { color: #FFFFFF !important; }
+
+@media only screen and (max-device-width: 720px) {
+	 .custom-logo { width: 100px; max-width: 150px; }
+	h1 { margin-top: 0; }
+}
+
+.site-info { display: none; }
+
+/* OUR TEAM */
+div.team-member {
+	width: 100%;
+	background-color: red;
+	display: inline-block;
+	top: -50px;
+}
+
+div.team-members > div:nth-of-type(2), div.team-members > div:nth-of-type(4) {
+	position: relative;
+	margin: 0 25px;
+}
+
+div.team-members > div:nth-of-type(3), div.team-members > div:nth-of-type(6) {
+	position: relative;
+}
+
+/*
+	CSS migrado do Jetpack:
+*/
+
+/*
+Bem-vindo ao CSS Personalizado!
+
+Para saber como isso funciona, veja http://wp.me/PEmnE-Bt
+*/
+.wc-shortcodes-pricing .wc-shortcodes-pricing-header {
+	background-color: #00712e;
+	border-color: #01461d;
+}
+
+.wc-shortcodes-pricing .wc-shortcodes-pricing-cost {
+	border-top: 1px solid #01461d;
+}
+
+.wc-shortcodes-pricing-button {
+	display: none;
+}
+
+.ctsc-pricing .ctsc-pricing-title {
+	font-size: 26px;
+}
+
+.ctsc-pricing .ctsc-pricing-subtitle {
+	font-size: 14px;
+}
+
+/* DEPOIMENTOS */
+.testimonials-widget-testimonials img {
+	margin-right: 25px;
+}
+
+.testimonials-widget-testimonials .credit {
+	float: left;
+}
+
+/* FOOTER */
+.footer-widget-1 {
+	margin: -50px auto;
+}
+
+@media screen and (max-width:480px) {
+	#tips {
+		margin: auto 40px;
+	}
+}
+
+@media screen and (max-width:720px) {
+	#tips {
+		margin: auto 30px;
+	}
+}
+
+#tips li {
+	width: 100%;
+	height: 50px;
+}
+
+#tips span {
+	font-size: 70%;
+	text-transform: uppercase;
+}
+
+.logo-footer {
+	float: left;
+	margin-top: -15px;
+	margin-right: -48px;
+}
+
+#tips .social-footer {
+	float: right;
+	margin-top: -20px;
+	font-size: 120%;
+}
+
+/* TOPO */
+#scroll-to-top {
+	margin-bottom: 50px;
+	z-index: 99999999;
+}
+
+.site-info img {
+	float: right;
+	margin-top: -25px;
+	margin-bottom: 50px;
+}
+
+.entry-header {
+	display: none;
+}
+
+div.rev_slider_wrapper {
+	top: -65px;
+}
+
+/* OUR TEAM */
+div.team-member, div.feature {
+	width: 30%;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+div.team-member {
+	top: -50px;
+}
+
+div.feature {
+	width: 33%;
+}
+
+div.team-members > div:nth-of-type(2), div.team-members > div:nth-of-type(4), div.feature > div:nth-of-type(2), div.feature > div:nth-of-type(4) {
+	position: relative;
+	margin: 0 25px;
+}
+
+div.team-members > div:nth-of-type(3), div.team-members > div:nth-of-type(6), div.feature > div:nth-of-type(3), div.feature > div:nth-of-type(6) {
+	position: relative;
+}
+
+/* LOJA DESATIVADA  */
+ul.nav-menu, .site-header-cart, .masthead {
+	display: none;
+}
+
+/* MENU */
+#menu-principal a {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	border: 2px solid #FFFFFF;
+	margin-left: -6px;
+}
+
+#menu-principal a:hover {
+	border: 2px solid #2c7036;
+	position: relative;
+	z-index: 999999;
+}
+
+#menu-principal-2 li {
+	display: inline-block;
+}
+
+#menu-principal-2 a {
+	color: #9aa0a7;
+}
+
+#menu-principal-2 a:hover {
+	color: #2c7036;
+}
+
+/* AJUSTES MOBILE */
+.site-logo {
+	margin-bottom: 25px;
+}
+
+@media only screen and (max-device-width: 480px) {
+	.logo-footer, .social-footer {
+		display: none;
+	}
+	
+	#tips span {
+		font-size: 48% !important;
+	}
+	
+	#tips div {
+		font-size: 40% !important;
+	}
+}
